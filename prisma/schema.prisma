@@ -71,3 +71,6 @@ model VerificationToken {
   @@unique([identifier, token])
   @@map("verificationtokens")
 }
+
+
+
